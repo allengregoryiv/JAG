@@ -34,3 +34,5 @@ mg				http://www.google.com/m/search?q=%s Search Google mobile
 mimg 			http://www.google.com/m/search?site=images&source=mog&gl=us&q=%s Search with mobile google image
 
 pdf				http://pdfmyurl.com?url=%r Create a PDF from this page
+
+sp		javascript:(function(){SP_HOST='http://my.springpadit.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=SP_HOST+'/public/clipper_inline.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=SP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title);}})(); Bookmark with springpad
